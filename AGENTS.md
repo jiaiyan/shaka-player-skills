@@ -277,6 +277,38 @@ Agent: Invokes shaka-player-subtitle-development skill
 
 ---
 
+### 10. Audio Development Agent
+
+**Skill Name**: `shaka-player-audio-development`
+
+**Purpose**: Provides comprehensive guidance for audio track management, multi-language switching, and ABR control.
+
+**Capabilities**:
+- Implement multi-language audio track switching
+- Configure audio quality and bandwidth control
+- Set up audio language preferences
+- Handle audio events and state management
+- Build custom audio selection UI
+- Configure multi-channel audio (stereo, 5.1, 7.1)
+
+**Interaction Pattern**:
+```
+User: "How do I switch between different audio languages?"
+Agent: Invokes shaka-player-audio-development skill
+       Shows selectAudioLanguage usage
+       Provides track selection code
+       Explains ABR configuration
+```
+
+**Output Format**:
+- Audio track switching code
+- ABR configuration examples
+- Language preference setup
+- Event handling implementation
+- UI selector components
+
+---
+
 ## Agent Interaction Scenarios
 
 ### Scenario 1: New Project Setup
@@ -315,6 +347,25 @@ Agent: Invokes shaka-player-subtitle-development skill
 4. Error Handling Agent improves reliability
 ```
 
+### Scenario 5: Subtitle Integration
+
+```
+1. User requests subtitle support
+2. Subtitle Development Agent provides loading code
+3. UI Customization Agent adds subtitle controls
+4. Error Handling Agent adds subtitle error handling
+```
+
+### Scenario 6: Audio Track Management
+
+```
+1. User requests multi-language audio support
+2. Audio Development Agent provides track switching code
+3. Configuration Agent sets up audio preferences
+4. UI Customization Agent adds audio selector controls
+5. Error Handling Agent adds audio error handling
+```
+
 ## Best Practices for Agent Usage
 
 1. **Start with Basic Usage**: Always begin with proper setup
@@ -328,10 +379,12 @@ Agent: Invokes shaka-player-subtitle-development skill
 Agents can reference each other for related functionality:
 
 - Basic Usage → Configuration, Error Handling
-- Configuration → DRM, Offline Storage
+- Configuration → DRM, Offline Storage, Subtitle Development, Audio Development
 - DRM → Error Handling, Offline Storage
 - Plugin Development → Build Customization
-- UI Customization → Configuration
+- UI Customization → Configuration, Subtitle Development, Audio Development
+- Subtitle Development → Error Handling, UI Customization
+- Audio Development → Configuration, Error Handling, UI Customization
 
 ## Version Compatibility
 

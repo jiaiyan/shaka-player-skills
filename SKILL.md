@@ -130,6 +130,19 @@ Comprehensive guide for Shaka Player subtitle development including format suppo
 - Handling subtitle events and errors
 - Understanding supported subtitle formats
 
+### 10. Audio Development
+**Skill**: `shaka-player-audio-development`  
+**Path**: `./shaka-player-audio-development/SKILL.md`
+
+Comprehensive guide for Shaka Player audio development including multi-track audio switching, ABR control, language preferences, and audio property customization.
+
+**Use when**:
+- Implementing multi-language audio track switching
+- Controlling audio quality and bandwidth
+- Configuring audio language preferences
+- Handling audio events and state management
+- Building custom audio selection UI
+
 ## Quick Start
 
 ### Basic Player Setup
@@ -192,6 +205,8 @@ player.configure({
 | Extending functionality | `shaka-player-plugin-development` |
 | UI customization | `shaka-player-ui-customization` |
 | Bundle optimization | `shaka-player-build-customization` |
+| Subtitle integration | `shaka-player-subtitle-development` |
+| Audio track management | `shaka-player-audio-development` |
 
 ## Related Resources
 
