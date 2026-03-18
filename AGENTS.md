@@ -190,29 +190,39 @@ Agent: Invokes shaka-player-plugin-development skill
 
 **Skill Name**: `shaka-player-ui-customization`
 
-**Purpose**: Helps customize the player user interface.
+**Purpose**: Helps customize the player user interface at all levels from basic configuration to complete custom UI development.
 
 **Capabilities**:
-- Set up UI library
-- Customize controls
-- Enable Chromecast
-- Configure VR playback
-- Implement localization
+- Set up UI library (declarative and programmatic)
+- Customize controls and configuration options
+- Develop custom buttons with Factory pattern
+- Apply CSS variables and theming
+- Implement deep CSS override techniques
+- Enable Chromecast and VR playback
+- Implement localization and translations
+- Handle UI reconfiguration and refresh
+- Build custom UI from scratch (Event Bridge pattern)
+- Implement custom seek bar with drag and preview
+- Create custom context menus
+- Handle accessibility features
 
 **Interaction Pattern**:
 ```
 User: "How do I add a custom button to the player controls?"
 Agent: Invokes shaka-player-ui-customization skill
-       Shows custom button implementation
+       Shows custom button implementation with Factory pattern
        Explains registration process
        Provides configuration example
+       Includes accessibility considerations
 ```
 
 **Output Format**:
-- UI setup code
+- UI setup code (HTML and JavaScript)
 - Custom control implementation
-- Configuration options
+- CSS variables and styling examples
+- Configuration options with explanations
 - Accessibility considerations
+- Common issues and solutions
 
 ---
 

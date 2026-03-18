@@ -97,13 +97,17 @@ Develops custom plugins including manifest parsers, text parsers, networking plu
 **Skill**: `shaka-player-ui-customization`  
 **Path**: `./shaka-player-ui-customization/SKILL.md`
 
-Customizes Shaka Player UI including controls, localization, and accessibility.
+Comprehensive guide for Shaka Player UI customization including DOM structure, configuration, custom components, CSS theming, localization, and building custom UI from scratch.
 
 **Use when**:
-- Setting up the UI library
-- Customizing player controls
-- Enabling Chromecast support
+- Setting up the UI library (declarative or programmatic)
+- Customizing player controls and configuration
+- Developing custom buttons and controls
+- Applying CSS variables and theming
+- Enabling Chromecast or VR support
 - Localizing the player UI
+- Building custom UI from scratch
+- Implementing custom seek bar or context menu
 
 ### 8. Build Customization
 **Skill**: `shaka-player-build-customization`  
