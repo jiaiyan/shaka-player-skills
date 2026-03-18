@@ -309,6 +309,38 @@ Agent: Invokes shaka-player-audio-development skill
 
 ---
 
+### 11. Video Source Development Agent
+
+**Skill Name**: `shaka-player-video-source-development`
+
+**Purpose**: Provides comprehensive guidance for video source development including bitrate control, resolution switching, ABR logic, multi-source switching, and quality selection UI.
+
+**Capabilities**:
+- Implement bitrate control mechanisms (manual and automatic)
+- Develop resolution switching functionality with animations
+- Design and integrate ABR algorithms
+- Build multi-source switching systems (HLS, DASH)
+- Create pseudo-external quality selection UI
+- Handle network-aware ABR adjustments
+
+**Interaction Pattern**:
+```
+User: "How do I add a quality selector to my player?"
+Agent: Invokes shaka-player-video-source-development skill
+       Shows QualitySelector UI component
+       Provides resolution switching code
+       Explains ABR configuration
+```
+
+**Output Format**:
+- Bitrate control implementation
+- Resolution switching code with animations
+- ABR configuration examples
+- Multi-source manager classes
+- Quality selection UI components
+
+---
+
 ## Agent Interaction Scenarios
 
 ### Scenario 1: New Project Setup
@@ -366,6 +398,16 @@ Agent: Invokes shaka-player-audio-development skill
 5. Error Handling Agent adds audio error handling
 ```
 
+### Scenario 7: Video Quality Control
+
+```
+1. User requests quality/resolution control
+2. Video Source Development Agent provides bitrate control code
+3. Configuration Agent sets up ABR preferences
+4. UI Customization Agent adds quality selector controls
+5. Error Handling Agent adds quality switch error handling
+```
+
 ## Best Practices for Agent Usage
 
 1. **Start with Basic Usage**: Always begin with proper setup
@@ -379,12 +421,13 @@ Agent: Invokes shaka-player-audio-development skill
 Agents can reference each other for related functionality:
 
 - Basic Usage → Configuration, Error Handling
-- Configuration → DRM, Offline Storage, Subtitle Development, Audio Development
+- Configuration → DRM, Offline Storage, Subtitle Development, Audio Development, Video Source Development
 - DRM → Error Handling, Offline Storage
 - Plugin Development → Build Customization
-- UI Customization → Configuration, Subtitle Development, Audio Development
+- UI Customization → Configuration, Subtitle Development, Audio Development, Video Source Development
 - Subtitle Development → Error Handling, UI Customization
 - Audio Development → Configuration, Error Handling, UI Customization
+- Video Source Development → Configuration, Error Handling, UI Customization
 
 ## Version Compatibility
 

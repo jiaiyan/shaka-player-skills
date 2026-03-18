@@ -143,6 +143,19 @@ Comprehensive guide for Shaka Player audio development including multi-track aud
 - Handling audio events and state management
 - Building custom audio selection UI
 
+### 11. Video Source Development
+**Skill**: `shaka-player-video-source-development`  
+**Path**: `./shaka-player-video-source-development/SKILL.md`
+
+Comprehensive guide for video source development including bitrate control, resolution switching, ABR logic, multi-source switching, and quality selection UI.
+
+**Use when**:
+- Implementing bitrate control mechanisms
+- Adding resolution switching functionality
+- Configuring ABR behavior
+- Switching between different video sources (HLS, DASH)
+- Building quality selection UI
+
 ## Quick Start
 
 ### Basic Player Setup
@@ -207,6 +220,7 @@ player.configure({
 | Bundle optimization | `shaka-player-build-customization` |
 | Subtitle integration | `shaka-player-subtitle-development` |
 | Audio track management | `shaka-player-audio-development` |
+| Quality/resolution control | `shaka-player-video-source-development` |
 
 ## Related Resources
 
