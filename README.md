@@ -16,6 +16,9 @@ This skill library provides structured guidance for developing with [Shaka Playe
 - **Plugin Development**: Create custom extensions
 - **UI Customization**: Controls, localization, and accessibility
 - **Build Customization**: Optimize bundle size
+- **Subtitle Development**: Subtitle loading, styling, and multi-language support
+- **Audio Development**: Audio track management and multi-language switching
+- **Video Source Development**: Bitrate control, resolution switching, and ABR logic
 
 ## Installation
 ```bash
@@ -119,6 +122,42 @@ Optimizes build size and creates custom configurations.
 - Custom build configs
 - Bundle size analysis
 - Plugin integration
+
+### 9. Subtitle Development (`shaka-player-subtitle-development`)
+
+Comprehensive guide for subtitle integration, styling, and multi-language support.
+
+**Topics covered**:
+
+- External subtitle loading (WebVTT, TTML)
+- Subtitle styling and customization
+- Multi-language subtitle switching
+- Subtitle events and error handling
+- Subtitle positioning and display control
+
+### 10. Audio Development (`shaka-player-audio-development`)
+
+Comprehensive guide for audio track management, multi-language switching, and ABR control.
+
+**Topics covered**:
+
+- Multi-language audio track switching
+- Audio quality and bandwidth control
+- Audio language preferences
+- Audio events and state management
+- Multi-channel audio configuration (stereo, 5.1, 7.1)
+
+### 11. Video Source Development (`shaka-player-video-source-development`)
+
+Comprehensive guide for video source development including bitrate control, resolution switching, and ABR logic.
+
+**Topics covered**:
+
+- Bitrate control mechanisms (manual and automatic)
+- Resolution switching functionality
+- ABR algorithm configuration and customization
+- Multi-source switching (HLS, DASH)
+- Quality selection UI implementation
 
 ## Quick Start
 
