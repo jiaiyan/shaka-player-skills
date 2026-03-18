@@ -117,6 +117,19 @@ Customizes Shaka Player builds to optimize bundle size and include only needed f
 - Creating custom build configurations
 - Adding custom plugins to the build
 
+### 9. Subtitle Development
+**Skill**: `shaka-player-subtitle-development`  
+**Path**: `./shaka-player-subtitle-development/SKILL.md`
+
+Comprehensive guide for Shaka Player subtitle development including format support, loading, styling, positioning, and multi-language switching.
+
+**Use when**:
+- Adding or loading external subtitles
+- Customizing subtitle appearance
+- Implementing multi-language subtitle switching
+- Handling subtitle events and errors
+- Understanding supported subtitle formats
+
 ## Quick Start
 
 ### Basic Player Setup

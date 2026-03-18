@@ -247,6 +247,36 @@ Agent: Invokes shaka-player-build-customization skill
 
 ---
 
+### 9. Subtitle Development Agent
+
+**Skill Name**: `shaka-player-subtitle-development`
+
+**Purpose**: Provides comprehensive guidance for subtitle integration, styling, and multi-language support.
+
+**Capabilities**:
+- Load external subtitles (WebVTT, TTML)
+- Customize subtitle appearance (font, size, color, background)
+- Implement multi-language subtitle switching
+- Handle subtitle events and errors
+- Configure subtitle positioning and display
+
+**Interaction Pattern**:
+```
+User: "How do I add Chinese subtitles to my video?"
+Agent: Invokes shaka-player-subtitle-development skill
+       Shows addTextTrackAsync usage
+       Provides styling options
+       Explains language switching
+```
+
+**Output Format**:
+- Subtitle loading code
+- CSS styling examples
+- Language switching implementation
+- Event handling setup
+
+---
+
 ## Agent Interaction Scenarios
 
 ### Scenario 1: New Project Setup
